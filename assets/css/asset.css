@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.top-card{
+    padding-top:20px;
+}
+
+.style-box {
+    padding: 0 20px;
+}
+
+.style {
+    height: 150px;
+    border-radius: 5px;
+    /* background: rgb(0, 228, 156);
+    background: linear-gradient(90deg, rgba(0, 228, 156, 1) 0%, rgba(0, 148, 218, 1) 100%, rgba(0, 148, 218, 1) 100%); */
+}
+
+.radius-1 {
+    background: rgb(0, 228, 156);
+    background: linear-gradient(90deg, rgba(0, 228, 156, 1) 0%, rgba(0, 148, 218, 1) 100%, rgba(0, 148, 218, 1) 100%);
+}
+
+.radius-2 {
+    background: rgb(250, 204, 72);
+    background: linear-gradient(90deg, rgba(250, 204, 72, 1) 0%, rgba(244, 111, 70, 1) 100%, rgba(0, 148, 218, 1) 100%);
+}
+
+.radius-3 {
+    background: rgb(1, 195, 231);
+    background: linear-gradient(90deg, rgba(1, 195, 231, 1) 0%, rgba(0, 126, 226, 1) 100%, rgba(0, 148, 218, 1) 100%);
+}
+
+.text-in-box{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.text-in-box-name{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.text-in-box-value{
+    margin-right: 20px; 
+}
+
+.chart-area{
+    height: 100%;
+}
+
+.chart{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #eef1f5;   
+}
+
+.chart-zone{
+    padding-top: 20px; 
+}
