@@ -12,11 +12,11 @@
 
   <body>
     <div class="container">
-      <!-- Cards -->
-      <div class="row mt-4">
+      <!--------------------------------------------------------------------- Cards --------------------------------------------------------------------->
+      <div class="row mt-2">
         <div class="card-1 col-xs-4 col-sm-4 col-md-4 col-lg-4 pl-2 pr-2">
           <div class="style radius-1">
-            <div class="text-in-box ml-3 custom-icon-card">
+            <div class="text-in-box ml-3 mt-2 custom-icon-card">
               <img src="./assets/imgs/bg-cont.png" />
               <div class="text-in-box-name">
                 Cont
@@ -29,7 +29,7 @@
         </div>
         <div class="font-card col-xs-4 col-sm-4 col-md-4 col-lg-4 pl-2 pr-2">
           <div class="style radius-2">
-            <div class="text-in-box ml-3 custom-icon-card">
+            <div class="text-in-box ml-3 mt-2 custom-icon-card">
               <img src="./assets/imgs/bg-weight.png" />
               <div class="text-in-box-name">
                 Weight
@@ -38,7 +38,7 @@
                 <div
                   class="d-flex justify-content-end aligns-item-end align-self-end"
                 >
-                  <span>1273</span>
+                  <span class="font-weight-bold">1273</span>
                   <span class="text-in-box-name custom-weight mr-3 ml-4"
                     >kg</span
                   >
@@ -46,7 +46,7 @@
                 <div
                   class="d-flex justify-content-end aligns-item-end align-self-end"
                 >
-                  <span>127345</span>
+                  <span class="font-weight-bold">127345</span>
                   <span class="text-in-box-name custom-weight mr-3 ml-3"
                     >cbm</span
                   >
@@ -57,7 +57,7 @@
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 pl-2 pr-2">
           <div class="style radius-3">
-            <div class="text-in-box ml-3 custom-icon-card">
+            <div class="text-in-box ml-3 mt-2 custom-icon-card">
               <img src="./assets/imgs/shipment-icon.png" />
               <div class="text-in-box-name">
                 Shipment
@@ -69,8 +69,8 @@
           </div>
         </div>
       </div>
-      <!-- End Card -->
-      <!-- Chart -->
+      <!--------------------------------------------------------------------- End Card --------------------------------------------------------------------->
+      <!--------------------------------------------------------------------- Chart --------------------------------------------------------------------->
       <div class="row mt-4">
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
           <div class="chart-area chart">
@@ -135,8 +135,8 @@
           </div>
         </div>
       </div>
-      <!-- End Chart -->
-      <!-- Table -->
+      <!--------------------------------------------------------------------- End Chart --------------------------------------------------------------------->
+      <!--------------------------------------------------------------------- Table --------------------------------------------------------------------->
       <div class="mt-4">
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pl-2 pr-2">
@@ -148,26 +148,60 @@
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-3 pl-2 pr-2">
             <div class="data-table ">
               <div class="table-responsive">
-                <table class="table table-borderless ">
+                <table class="table table-font-size">
                   <thead class="thead-style">
                     <tr>
-                      <th scope="col">Status</th>
-                      <th scope="col">Shipment No.</th>
-                      <th scope="col">Shipment Name</th>
-                      <th scope="col">Created Date</th>
-                      <th scope="col">Origin</th>
-                      <th scope="col">Destination</th>
-                      <th scope="col">Mode</th>
-                      <th scope="col">Shiper</th>
-                      <th scope="col">Rate</th>
+                      <th scope="col" class="text-nowrap">
+                        <span>Status</span>
+                        <i class="fas fa-sort"></i>
+                        <i class="fas fa-filter"></i>
+                      </th>
+                      <th scope="col" class="text-nowrap">
+                        <span>Shipment No.</span>
+                        <i class="fas fa-sort"></i>
+                        <i class="fas fa-filter"></i>
+                      </th>
+                      <th scope="col" class="text-nowrap">
+                        <span>Shipment Name</span>
+                        <i class="fas fa-sort"></i>
+                        <i class="fas fa-filter"></i>
+                      </th>
+                      <th scope="col" class="text-nowrap">
+                        <span>Created Date</span>
+                        <i class="fas fa-sort"></i>
+                        <i class="fas fa-filter"></i>
+                      </th>
+                      <th scope="col" class="text-nowrap">
+                        <span>Origin</span>
+                        <i class="fas fa-sort"></i>
+                        <i class="fas fa-filter"></i>
+                      </th>
+                      <th scope="col" class="text-nowrap">
+                        <span>Destination</span>
+                        <i class="fas fa-sort"></i>
+                        <i class="fas fa-filter"></i>
+                      </th>
+                      <th scope="col" class="text-nowrap">
+                        <span>Mode</span>
+                        <i class="fas fa-sort"></i>
+                        <i class="fas fa-filter"></i>
+                      </th>
+                      <th scope="col" class="text-nowrap">
+                        <span>Shiper</span>
+                        <i class="fas fa-sort"></i>
+                        <i class="fas fa-filter"></i>
+                      </th>
+                      <th scope="col" class="text-nowrap">
+                        <span>Rate</span>
+                        <i class="fas fa-sort"></i>
+                        <i class="fas fa-filter"></i>
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>
-                        <button type="button" class="btn btn-outline-primary">
-                          New
-                        </button>
+                        <h6><span class="badge badge-secondary status-new">New</span></h6>
                       </td>
                       <td class="custom-color">IS55895556624545</td>
                       <td>IS55895556624545</td>
@@ -182,9 +216,7 @@
                     </tr>
                     <tr>
                       <td>
-                        <button type="button" class="btn btn-outline-primary">
-                          New
-                        </button>
+                        <h6><span class="badge badge-secondary status-new">New</span></h6>
                       </td>
                       <td class="custom-color">IS55895556624545</td>
                       <td>IS55895556624545</td>
@@ -199,9 +231,7 @@
                     </tr>
                     <tr>
                       <td>
-                        <button type="button" class="btn btn-outline-primary">
-                          New
-                        </button>
+                        <h6><span class="badge badge-secondary status-new">New</span></h6>
                       </td>
                       <td class="custom-color">IS55895556624545</td>
                       <td>IS55895556624545</td>
@@ -216,9 +246,7 @@
                     </tr>
                     <tr>
                       <td>
-                        <button type="button" class="btn btn-outline-primary">
-                          New
-                        </button>
+                        <h6><span class="badge badge-secondary status-new">New</span></h6>
                       </td>
                       <td class="custom-color">IS55895556624545</td>
                       <td>IS55895556624545</td>
@@ -233,9 +261,7 @@
                     </tr>
                     <tr>
                       <td>
-                        <button type="button" class="btn btn-outline-primary">
-                          New
-                        </button>
+                        <h6><span class="badge badge-secondary status-new">New</span></h6>
                       </td>
                       <td class="custom-color">IS55895556624545</td>
                       <td>IS55895556624545</td>
@@ -250,9 +276,7 @@
                     </tr>
                     <tr>
                       <td>
-                        <button type="button" class="btn btn-outline-primary">
-                          New
-                        </button>
+                        <h6><span class="badge badge-secondary status-inPrcess">in Prcess</span></h6>
                       </td>
                       <td class="custom-color">IS55895556624545</td>
                       <td>IS55895556624545</td>
@@ -267,9 +291,7 @@
                     </tr>
                     <tr>
                       <td>
-                        <button type="button" class="btn btn-outline-primary">
-                          New
-                        </button>
+                        <h6><span class="badge badge-secondary status-inPrcess">in Prcess</span></h6>
                       </td>
                       <td class="custom-color">IS55895556624545</td>
                       <td>IS55895556624545</td>
@@ -284,9 +306,7 @@
                     </tr>
                     <tr>
                       <td>
-                        <button type="button" class="btn btn-outline-primary">
-                          New
-                        </button>
+                        <h6><span class="badge badge-secondary status-inPrcess">in Prcess</span></h6>
                       </td>
                       <td class="custom-color">IS55895556624545</td>
                       <td>IS55895556624545</td>
@@ -301,9 +321,7 @@
                     </tr>
                     <tr>
                       <td>
-                        <button type="button" class="btn btn-outline-primary">
-                          New
-                        </button>
+                        <h6><span class="badge badge-secondary status-inPrcess">in Prcess</span></h6>
                       </td>
                       <td class="custom-color">IS55895556624545</td>
                       <td>IS55895556624545</td>
@@ -318,9 +336,7 @@
                     </tr>
                     <tr>
                       <td>
-                        <button type="button" class="btn btn-outline-primary">
-                          New
-                        </button>
+                        <h6><span class="badge badge-secondary status-inPrcess">in Prcess</span></h6>
                       </td>
                       <td class="custom-color">IS55895556624545</td>
                       <td>IS55895556624545</td>
@@ -340,12 +356,13 @@
           </div>
         </div>
       </div>
-      <!-- End Table -->
+      <!--------------------------------------------------------------------- End Table --------------------------------------------------------------------->
     </div>
     <script src="./assets/js/jquery-3.3.1.slim.min.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/Chart.min.js"></script>
+    <script src="./assets/js/chartjs-plugin-style.min.js"></script>
     <script src="./assets/js/asset.js"></script>
   </body>
 </html>

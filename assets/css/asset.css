@@ -96,7 +96,7 @@ fieldset[disabled] .btn-custom.active {
     color: #afb4b9
 }
 
-.dropdown-toggle{
+.dropdown-toggle {
     color: #01bccd;
 }
 
@@ -135,23 +135,47 @@ fieldset[disabled] .btn-custom.active {
 
 .text-element>div:nth-child(3) {
     color: red;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 .table-title {
     color: #565d6e;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
 td {
     color: #889096;
 }
+.table td, .table th {
+    vertical-align: middle;
+}
+tbody tr:hover{
+    background-color: #ebf6f7;
+}
+
+th {
+    font-weight: normal;
+}
+
+.progress-bar {
+    background: white;
+    color: #57bff5;
+    border-color: #57bff5;
+}
+
+.border {
+    border-color: #57bff5;
+}
 
 .thead-style {
     background: #01bccd;
     color: white;
+    font-weight: normal;
+}
 
+.table-font-size {
+    font-size: 0.8rem;
 }
 
 .custom-color {
@@ -190,4 +214,25 @@ td {
 
 .btn {
     line-height: 1;
+}
+
+.status-new {
+    background: transparent;
+    color: #5bc0f6;
+    border: 1px solid #5bc0f6;
+    width: 100%;
+    border-radius: 0;
+}
+
+.status-inPrcess{
+    background: transparent;
+    color: #ff9d46;
+    border: 1px solid #ff9d46;
+    width: 100%;
+    border-radius: 0;
+}
+
+h6 {
+    text-align: center;
+    margin: 0;
 }
